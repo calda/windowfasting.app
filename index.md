@@ -8,11 +8,12 @@ layout: default
  - [Opening an Eating Window](#opening-an-eating-window)
    - [Timed vs Flexible Windows](#timed-vs-flexible-windows)
 - [Scheduling a Daily Window](#scheduling-a-daily-window)
+- This guide is in progress. More topics will be added soon.
 
 
 # Opening an Eating Window
 
-Once you open the Window app, you'll see a screen that lets you set up and open an eating window. In the center of the screen, you can use the plus and minus buttons to set the length the length of your eating window.
+Once you open the Window app, you'll see a screen that lets you set up and open an eating window. In the center of the screen, you can use the plus and minus buttons to set the length of your eating window.
 
 <p class="images">
     <a href="images/open window.png">
@@ -50,7 +51,7 @@ To use a flexible window, change the window type to "Flexible" in the switch at 
 
 You can set a schedule for your eating windows so they will automatically open and close at the same time every day. If you tap the gray "Schedule" button on the setup screen, you'll see a screen where you can configure your daily schedule.
 
-The length of window (included whether the window is timed of flexible) is pulled from the main setup screen. You can set the start time of the eating window. At that time, your window will open and you'll receive a notification. 
+The length of your eating window (included whether the window is timed of flexible) is pulled from the main setup screen. You can set the start time of the eating window by using the up and down arrows.
 
 You can either set a schedule that repeats every day, or schedule an individial window to start later that day.
 
@@ -65,7 +66,7 @@ Once you're happy with your schedule, you can tap the "Schedule" button and Wind
     </a>
 </p> 
 
-When your eating windows open or close, you'll always get a notification.
+With scheduled eating windows, you get a notification both when the window opens and when the window closes. If you're using a repeating schedule, the notifications will repeat every day until you end the schedule.
 
 <p class="images">
     <a href="images/notifications.png">
@@ -74,3 +75,5 @@ When your eating windows open or close, you'll always get a notification.
 </p>
 
 # More coming soon!
+
+This guide is in progress. More topics will be added soon.
