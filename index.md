@@ -5,9 +5,10 @@ layout: default
 
 ## Contents
 
- - [Opening an Eating Window](#opening-an-eating-window)
+- [Opening an Eating Window](#opening-an-eating-window)
    - [Timed vs Flexible Windows](#timed-vs-flexible-windows)
-- [Scheduling a Daily Window](#scheduling-a-daily-window)
+   - [Scheduling a Daily Window](#scheduling-a-daily-window)
+- [Viewing your Window History](#viewing-your-window-history)
 - This guide is in progress. More topics will be added soon.
 
 
@@ -47,7 +48,7 @@ To use a flexible window, change the window type to "Flexible" in the switch at 
     </a>
 </p> 
 
-# Scheduling a Daily Window
+## Scheduling a Daily Window
 
 You can set a schedule for your eating windows so they will automatically open and close at the same time every day. If you tap the gray "Schedule" button on the setup screen, you'll see a screen where you can configure your daily schedule.
 
@@ -66,13 +67,30 @@ Once you're happy with your schedule, you can tap the "Schedule" button and Wind
     </a>
 </p> 
 
-With scheduled eating windows, you get a notification both when the window opens and when the window closes. If you're using a repeating schedule, the notifications will repeat every day until you end the schedule.
+With scheduled eating windows, you get a notification when the window opens and when the window closes. If you're using a repeating schedule, the notifications will repeat every day.
 
 <p class="images">
     <a href="images/notifications.png">
         <img style="max-width: 80%" src="images/notifications.png">
     </a>
 </p>
+
+# Viewing your Window History
+
+You can view your recent eating windows at the bottom of the main setup screen. If you want to view windows older than that, you can tap the "More" button at the bottom left to open the Window History screen.
+
+On the Window History screen, you can see all of your past eating windows in a calendar format. The number inside each circle is the length of that day's eating window (rounded to the nearest half-hour).
+
+<p class="images">
+    <a href="images/past%20four%20days.png">
+        <img src="images/past%20four%20days.png"> 
+    </a>
+    <a href="images/window%20history.png">
+        <img src="images/window%20history.png">
+    </a>
+</p>
+
+
 
 # More coming soon!
 
