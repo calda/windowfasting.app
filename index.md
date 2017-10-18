@@ -13,6 +13,9 @@ layout: default
    - [How does Window calculate your Fasting Duration?](#how-does-window-calculate-your-fasting-duration)
    - [Viewing Statistics about your Windows](#viewing-statistics-about-your-windows)
    - [Exporting your Window History to a Spreadsheet](#exporting-your-window-history-to-a-spreadsheet)
+- **[Adding a Note to your Window](#adding-a-note-to-your-window)**
+  - [Adding an Image to Your Note](#adding-an-image-to-your-note)
+  - [Viewing Past Notes](#viewing-past-notes)
 - This guide is in progress. More topics will be added soon.
 
 
@@ -156,6 +159,58 @@ Window will generate a *.csv* file of your data. CSV stands for "comma-separated
         <img src="images/csv.png">
     </a>
 </p>
+
+## Adding a Note to your Window
+
+You can now add notes to your windows (while they're open or even after they're closed). You have space to write about your day, mention how you feel, or log what you ate for dinner. You can also attach pictures, which is the perfect way to document your eating habits. Window will save these notes with your windows forever so you can come back and reference them later.
+
+To add a note to your Window, tap the *"Add Note"* button in the bottom bar of your current window. From there, you can type a note or add an image. Once you're done, tap the *"Save"* button.
+
+<p class="images">
+    <a href="images/add%20note.png">
+        <img src="images/add%20note.png"> 
+    </a>
+    <a href="images/type%20note.png">
+        <img src="images/type%20note.png">
+    </a>
+</p>
+
+### Adding an Image to Your Note
+
+You can add an image to your note by tapping the green Camera button on the [Note screen](#adding-a-note-to-your-window). You will have the option to either choose an existing photo on your device, or take a photo directly from the camera.
+
+Once you choose a photo, Window will show you a thumbnail of the image on the Note screen. You can tap on that thumbnail to view the image full-screen.
+
+Window will store and remember all of your images so you can view them later.
+
+<p class="images">
+    <a href="images/note%20with%20image.png">
+        <img src="images/note%20with%20image.png"> 
+    </a>
+    <a href="images/full%20image.png">
+        <img src="images/full%20image.png">
+    </a>
+</p>
+
+
+### Viewing Past Notes
+
+When you create a new note, it stays attached to the specific Window that it was added to. To view your notes later, you can use the [Window History screen](#viewing-your-window-history). 
+
+Window will show a small pencil icon for each of your eating windows that have a note attached. If you tap on that date, and then tap *"View Note"*, your note will open.
+
+<p class="images">
+    <a href="images/history%20with%20notes.png">
+        <img src="images/history%20with%20notes.png"> 
+    </a>
+    <a href="images/view%20note.png">
+        <img src="images/view%20note.png">
+    </a>
+</p>
+
+
+
+
 
 # More coming soon!
 
