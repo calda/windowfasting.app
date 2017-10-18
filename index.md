@@ -5,10 +5,14 @@ layout: default
 
 ## Contents
 
-- [Opening an Eating Window](#opening-an-eating-window)
+- **[Opening an Eating Window](#opening-an-eating-window)**
    - [Timed vs Flexible Windows](#timed-vs-flexible-windows)
    - [Scheduling a Daily Window](#scheduling-a-daily-window)
-- [Viewing your Window History](#viewing-your-window-history)
+- **[Viewing your Window History](#viewing-your-window-history)**
+   - [Viewing your Fasting Duration](#viewing-your-fasting-duration)
+   - [How does Window calculate your Fasting Duration?](#how-does-window-calculate-your-fasting-duration)
+   - [Viewing Statistics about your Windows](#viewing-statistics-about-your-windows)
+   - [Exporting your Window History to a Spreadsheet](#exporting-your-window-history-to-a-spreadsheet)
 - This guide is in progress. More topics will be added soon.
 
 
@@ -90,7 +94,68 @@ On the Window History screen, you can see all of your past eating windows in a c
     </a>
 </p>
 
+## Viewing your Fasting Duration
 
+Even though your eating window tracks the amount of time you eat, you can also view the amount of time you *don't* eat. This is your fasting duration.
+
+You can configure Window to show your fasting duration instead of your eating window duration. Open the [Window History](#viewing-your-window-history) screen, and tap the gear at the bottom of the screen. Then toggle "Show fasting duration".
+
+<p class="images">
+    <a href="images/show%20fasting%20duration.png">
+        <img src="images/show%20fasting%20duration.png"> 
+    </a>
+    <a href="images/fasting%20history.png">
+        <img src="images/fasting%20history.png">
+    </a>
+</p>
+
+## How does Window calculate your Fasting Duration?
+
+Since Window only *tracks* the time you eat, it does a little bit of math to calculate your fasting duration. Window defines your *"fasting duration"* as the amount of time between the **end** of one eating window and the **start** of the next eating window.
+
+For example, if you have an eating window that ends at 9pm on one day, and an eating window that starts at 3pm on the next day, then you fasted for 18 hours.
+
+<p class="images">
+    <a href="images/calculate%20fasting%20duration.png">
+        <img style="max-width: 300px !important;" src="images/calculate%20fasting%20duration.png"> 
+    </a>
+</p>
+
+If you are currently fasting, Window will calculate your fast as being the time since your most recent eating window. For example, if your most recent eating window ended at 3pm and it's currently 9pm, then Window will say that you've been fasting for 6 hours.
+
+## Viewing Statistics about your Windows
+
+You can view statistics about your eating windows, including average length of your windows over some range of dates. From the [Window History](#viewing-your-window-history) screen, tap the *"Statistics"* button at the bottom-right. 
+
+To select a range of dates, tap the start date and then tap the end date. You can also select dates by dragging your finger across the calendar.
+
+Once you have the correct range selected, tap *"View"* at the bottom-right. Window will show you your statistics for the selected range of dates.
+
+<p class="images">
+    <a href="images/drag.gif">
+        <img src="images/drag.gif"> 
+    </a>
+    <a href="images/statistics.png">
+        <img src="images/statistics.png">
+    </a>
+</p>
+
+## Exporting your Window History to a Spreadsheet
+
+If you want to perform more advanced analysis of your eating window history, you can export your data to a spreadsheet.
+
+First, you must [open the statistics screen](#viewing-statistics-about-your-windows) for the specific range of dates you're interested in. Then you can tap the *"Download"* button at the bottom-left of that screen.
+
+Window will generate a *.csv* file of your data. CSV stands for "comma-separated values". Most spreadsheet programs, such as Microsoft Excel or Apple Numbers, can open a *.csv" file. You can add it to a note, email it to yourself, or open it on a different app on your device.
+
+<p class="images">
+    <a href="images/download%20stats.png">
+        <img src="images/download%20stats.png"> 
+    </a>
+    <a href="images/csv.png">
+        <img src="images/csv.png">
+    </a>
+</p>
 
 # More coming soon!
 
