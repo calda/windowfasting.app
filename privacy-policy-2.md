@@ -20,6 +20,6 @@ The user's weight data is stored using the *Apple Health* app and associated *He
 This Statement of Privacy may be updated occasionally to reflect product evolution and feedback. We encourage you to periodically review this Statement of Privacy to be aware how your information is being used and protected.
 
 ## Contact Information
-We welcome your questions and comments regarding this Statement of Privacy. If you believe that *Window* has not adhered to this Statement, please contact the developer at [calstephens.tech](https://calstephens.tech/contact.html).
+We welcome your questions and comments regarding this Statement of Privacy. If you believe that *Window* has not adhered to this Statement, please contact the developer at [calstephens.tech](https://calstephens.tech/contact/).
 
 Effective as of November 26, 2018.
