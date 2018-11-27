@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
 
-  <title>{% if page.title %}{{ page.title }}{% endif %}</title>
+  <title>{{ page.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description | default: site.github.project_tagline }}"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#4179f4">
@@ -14,43 +14,15 @@
 <body>
   <body>
     <section class="page-header">
-      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+      <h1 class="project-name">{{ page.title }}</h1>
     </section>
 
     <section class="main-content">
       {{ content }}
-
-      <script>
-      function SetScreenshotWidth() {
-        if($(window).width() <= 672) {
-          $("img").each(function() {
-            $(this).attr("src", $(this).attr("src").replace("images/shifty-screenshot-large.png", "images/shifty-screenshot-small.png"));
-          });
-        } else {
-          $("img").each(function() {
-            $(this).attr("src", $(this).attr("src").replace("images/shifty-screenshot-small.png", "images/shifty-screenshot-large.png"));
-          });
-        }
-      };
-
-      $(SetScreenshotWidth())
-      </script>
-
       <footer class="site-footer">
         <div class="site-footer-credits">Window is an app by <a href="http://calstephens.tech">Cal Stephens</a>.</div> <br>
         <div class="site-footer-credits">Still have questions? <a href="mailto:cal@calstephens.tech?subject=Question%20about%20Window">Send me an email</a>.
         </footer>
       </section>
-
-      <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-91065230-2', 'auto');
-      ga('send', 'pageview');
-
-      </script>
     </body>
     </html>

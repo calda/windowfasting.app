@@ -16,7 +16,11 @@ layout: default
 - **[Adding a Note to your Window](#adding-a-note-to-your-window)**
   - [Adding an Image to Your Note](#adding-an-image-to-your-note)
   - [Viewing Past Notes](#viewing-past-notes)
-- This guide is in progress. More topics will be added soon.
+- **[Tracking your Weight with Window](#tracking-your-weight-with-window)**
+    - [Granting HealthKit Access](#granting-health-kit-access)
+    - [Logging your Weight](#logging-your-weight)
+    - [Managing the Weight Graph](#managing-the-weight-graph)
+    - [Hiding Old Weights](#hiding-old-weights)
 
 
 # Opening an Eating Window
@@ -208,10 +212,7 @@ Window will show a small pencil icon for each of your eating windows that have a
     </a>
 </p>
 
+## Tracking your Weight with Window
 
+Coming soon.
 
-
-
-# More coming soon!
-
-This guide is in progress. More topics will be added soon.
