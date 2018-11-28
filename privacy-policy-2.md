@@ -8,7 +8,7 @@ Protecting your private information is a paramount priority for us. This Stateme
 ## Collection of your Personal Information
 We collect and store data essential the the operation of the app, such eating window start times, eating window end times, note text, attached photographs, and logged weight data. This data is not shared with any service and is only accessible through the *Window* app.
 
-The user's weight data is stored using the *Apple Health* app and associated *HealthKit* framework. *Apple Health* and *HealthKit* are services provided by *Apple, Inc.*, and the associated data is this protected according to the *[Apple Privacy Policy](https://www.apple.com/legal/privacy/en-ww/)*.
+The user's weight data is stored using the *Apple Health* app and associated *HealthKit* framework. *Apple Health* and *HealthKit* are services provided by *Apple, Inc.*, and the associated data is thus protected according to the *[Apple Privacy Policy](https://www.apple.com/legal/privacy/en-ww/)*.
 
 ## Security of your Personal Information
 *Window* protects the user’s personal information from unauthorized access, use, or disclosure through systems provided by Apple. Data is not transmitted off of the device in which it was created or entered.
