@@ -3,7 +3,7 @@ title: Window Privacy Policy
 layout: default
 ---
 
-Protecting your private information is a paramount priority for us. This Statement of Privacy applies to the *Window* app and governs data collection and usage. *Window* is a utility app design to track intermittent fasting windows. By using the *Window* app, you, “the user”, consent to the data practices described in this statement.
+Protecting your private information is a paramount priority for us. This Statement of Privacy applies to the *Window* app and governs data collection and usage. *Window* is a utility app designed to track intermittent fasting windows. By using the *Window* app, you, “the user”, consent to the data practices described in this statement.
 
 ## Collection of your Personal Information
 We collect and store data essential the the operation of the app, such eating window start times, eating window end times, note text, attached photographs, and logged weight data. This data is not shared with any service and is only accessible through the *Window* app.
