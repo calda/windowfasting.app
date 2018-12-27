@@ -1,0 +1,13 @@
+[
+    {
+        title: "Happy New Year!",
+        subtitle: "January 1, 2019",
+        body: "Something something happy new year!",
+        pdfVectorUrl: "https://window.calstephens.tech/app-remote/happy%20new%20year.pdf",
+        earliestDisplayDate: "12:00 AM, January 1, 2019",
+        latestDisplayDate: "12:00 AM, January 3, 2019",
+        primaryAction: {
+            url: "https://window.calstephens.tech"
+        }
+    }
+]
