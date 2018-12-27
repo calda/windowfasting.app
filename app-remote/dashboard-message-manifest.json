@@ -1,11 +1,23 @@
-[{
-    "title": "Happy New Year!",
-    "subtitle": "January 1, 2019",
-    "body": "Something something happy new year!",
-    "pdfVectorUrl": "https://window.calstephens.tech/app-remote/happy%20new%20year.pdf",
-    "earliestDisplayDate": "12:00 AM, January 1, 2019",
-    "latestDisplayDate": "12:00 AM, January 3, 2019",
-    "primaryAction": {
-        "url": "https://window.calstephens.tech"
+[
+    
+    {
+        "title": "Happy New Year!",
+        "subtitle": "January 1, 2019",
+        "body": "Wishing you best of luck on your New Year's resolutions! Your intermittent fasting journey is just getting started.",
+        "pdfVectorUrl": "https://window.calstephens.tech/app-remote/happy%20new%20year.pdf",
+        "earliestDisplayDate": "12:00 AM, January 1, 2019",
+        "latestDisplayDate": "12:00 AM, January 3, 2019"
+    },
+    
+    {
+        "title": "New Update Available!",
+        "subtitle": "December 15, 2018",
+        "body": "Window 3.0 is now available as a free update on the App Store! It has lots of great new features!",
+        "earliestDisplayDate": "12:00 AM, December 15, 2018",
+        "requiredAppVersion": "2.1.4",
+        "primaryAction": {
+            "url": "https://blog.calstephens.tech/announcing-window-3"
+        }
     }
-}]
+    
+]
