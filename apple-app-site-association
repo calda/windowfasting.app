@@ -1,12 +1,12 @@
 {
    "activitycontinuation": {
-       "apps": ["EGSTW2CYXK.tech.calstephens.Window"]
+       "apps": ["FZ89A5SZ7C.tech.calstephens.Window"]
     },
 
    "applinks": {
         "apps": [],
         "details": [{
-            "appID": "EGSTW2CYXK.tech.calstephens.Window",
+            "appID": "FZ89A5SZ7C.tech.calstephens.Window",
             "paths": ["/invitation"]
         }]
     }
