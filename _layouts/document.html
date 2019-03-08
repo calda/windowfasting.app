@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>{{ page.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description | default: site.github.project_tagline }}"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4179f4">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href='/assets/css/document-page-style.css'>
+</head>
+<body>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">{{ page.title }}</h1>
+    </section>
+
+    <section class="main-content">
+      {{ content }}
+      <footer class="site-footer">
+        <div class="site-footer-credits">Window is an app by <a href="http://calstephens.tech">Cal Stephens</a>.</div> <br>
+        <div class="site-footer-credits">Still have questions? <a href="mailto:cal@calstephens.tech?subject=Question%20about%20Window">Send me an email</a>.
+        </footer>
+      </section>
+    </body>
+    </html>
