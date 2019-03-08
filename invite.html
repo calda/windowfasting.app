@@ -1,0 +1,34 @@
+<html>
+
+    <head>
+        <script>
+            function handleDeepLink() {
+                var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+                const urlParameters = new URLSearchParams(window.location.search)
+                const invitationCode = urlParameters.get('code')
+                
+                if (invitationCode === undefined || invitationCode == null || invitationCode.length == 0) {
+                    window.location = "/404.html"
+                    return
+                }
+                
+                if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                    window.location = "window://invitation?code=" + encodeURIComponent(invitationCode)
+                } else {
+                    console.log('Handle desktop flow')
+                }
+            }
+        </script>
+    </head>
+    
+    <body onload='handleDeepLink()'>
+        Somebody sent you an invitation! <br>
+        <br>
+        // TODO: design, and handle all of the following cases<br>
+        [X] The user opened this link on their iPhone, and have Window installed. <br>
+        [_] The user opened this link on their iPhone but doesn't have Window installed. <br>
+        [_] The user opened this link on their computer and needs to be told how to either (1) buy Window or (2) input the code in the app
+    </body>
+
+</html>
