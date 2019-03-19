@@ -3,6 +3,10 @@ title: Window &mdash; Frequently Asked Questions
 layout: document
 ---
 
+{% include section.html name="Table of Contents" %}
+ - {% include link.html name="What is an eating window?" %}
+  - {% include link.html name="Why can't my eating window be longer than 20 hours?" %}
+
 {% include section.html name="What is an eating window?" %}
 
 Your ***"eating window"*** is the period of time during the day where you're eating food. Think of it like this &mdash; When you take your first bite of food for the day, your eating window *"opens"*. When you take your last bite of food for the day, your eating window *"closes"*. If you had your first meal at **11:00 AM** and then had another meal at **5:00 PM**, then you had a ***6 hour eating window*** for the day.
