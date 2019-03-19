@@ -5,7 +5,8 @@ layout: document
 
 {% include section.html name="Table of Contents" %}
  - {% include link.html name="What is an eating window?" %}
-  - {% include link.html name="Why can't my eating window be longer than 20 hours?" %}
+ - {% include link.html name="Why can't my eating window be longer than 20 hours?" %}
+ - {% include link.html name="Does Window sync my data between my iPhone and my iPad?" %}
 
 {% include section.html name="What is an eating window?" %}
 
@@ -23,3 +24,8 @@ Window supports *[eating windows](#what-is-an-eating-window?)* up to 20 hours, a
 Your eating window usually won't be longer than 12 hours, though. An eating window of 12 hours would mean that you had your first meal at **8:00 AM** and your last meal at **8:00 PM**. That's a full day of eating &mdash; but everyone's allowed to take days off on occasion! 
 
 Longer eating windows are less common. For example, a 20 hour eating window would mean that you had your first meal at **3:00 AM** and then had your last meal at **11:00 PM**. Most people aren't awake for 20 hours at a time &mdash; and if you're sleeping, you aren't eating!
+
+
+{% include section.html name="Does Window sync my data between my iPhone and my iPad?" %}
+
+Not yet! At this time, Window doesn't automatically sync your data across your devices (e.g. from your iPhone to your iPad). But I'm working on that feature for a future update! Stay tuned.
