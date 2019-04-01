@@ -578,7 +578,7 @@ body {
   color: #606c71; }
 
 a {
-  color: #1e6bb8;
+  color: #2A9431;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
@@ -832,3 +832,25 @@ a {
   max-width: 45%;
   margin: 5px;
   box-shadow: 2px 1px 10px #ebebeb; }
+
+.round-button {
+    border-radius: 0.3em;
+    border: 1px solid;
+    display: inline-block;
+    margin: 1em 0;
+    padding: 0.3em 0.5em;
+    border-color: #2A9431;
+}
+
+a.round-button {
+    @extend .button-link;
+}
+
+.round-button {
+    &:hover {
+        background: #2A9431;
+        border: 1px solid #2A9431;
+        color: #2A9431;
+        text-decoration: none;
+    }
+}
